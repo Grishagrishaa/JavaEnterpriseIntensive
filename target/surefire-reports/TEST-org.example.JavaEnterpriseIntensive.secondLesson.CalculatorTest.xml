@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.JavaEnterpriseIntensive.secondLesson.CalculatorTest" time="0.008" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.JavaEnterpriseIntensive.secondLesson.CalculatorTest" time="0.009" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14.1+1\bin"/>
-    <property name="sun.java.command" value="C:\Users\grikh\AppData\Local\Temp\surefire6708469720770997876\surefirebooter2021066791584417800.jar C:\Users\grikh\AppData\Local\Temp\surefire6708469720770997876 2022-03-31T21-30-33_618-jvmRun1 surefire10222138805460811857tmp surefire_013668266052268599776tmp"/>
+    <property name="sun.java.command" value="C:\Users\grikh\AppData\Local\Temp\surefire1307534383347634\surefirebooter10127384828074191929.jar C:\Users\grikh\AppData\Local\Temp\surefire1307534383347634 2022-04-02T20-04-11_763-jvmRun1 surefire1729450367557282124tmp surefire_012756817981807643436tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\target\test-classes;C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\target\classes;C:\Users\grikh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\grikh\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\grikh\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\grikh\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\grikh\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\grikh\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\grikh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\grikh\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\grikh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\grikh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\grikh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\grikh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\grikh\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\grikh\AppData\Local\Temp\surefire6708469720770997876\surefirebooter2021066791584417800.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\grikh\AppData\Local\Temp\surefire1307534383347634\surefirebooter10127384828074191929.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1"/>
@@ -63,7 +63,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="addition" classname="org.example.JavaEnterpriseIntensive.secondLesson.CalculatorTest" time="0.002"/>
+  <testcase name="addition" classname="org.example.JavaEnterpriseIntensive.secondLesson.CalculatorTest" time="0.001"/>
   <testcase name="addition1" classname="org.example.JavaEnterpriseIntensive.secondLesson.CalculatorTest" time="0.001"/>
-  <testcase name="addition2" classname="org.example.JavaEnterpriseIntensive.secondLesson.CalculatorTest" time="0"/>
+  <testcase name="addition2" classname="org.example.JavaEnterpriseIntensive.secondLesson.CalculatorTest" time="0.001"/>
 </testsuite>
