@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets;
+package org.example.JavaEnterpriseIntensive.servlets.basics;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -27,7 +27,7 @@ public class FilterServlet extends HttpServlet {
                 if (Character.isDigit(paramValue.charAt(i))){
                     break;
                 }
-                if(i==param.length()-1){
+                if(i==paramValue.length()-1){
                     bld.append(paramValue).append(" ");
                 }
             }

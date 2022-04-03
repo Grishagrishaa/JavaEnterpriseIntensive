@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets;
+package org.example.JavaEnterpriseIntensive.servlets.basics;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,19 +8,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "HelloWorldServletWithName", urlPatterns = "/hello_with_name")
-public class HelloWorldServletWithName extends HttpServlet {
+@WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello")
+public class HelloWorldServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        req.setCharacterEncoding("UTF=8");
-
-        String firstname = req.getParameter("firstname");
-
-        resp.setContentType("text/html; charset=UTF-8");
-
-        PrintWriter writer = resp.getWriter();
-        writer.write("<p><span style='color: blue;'>Hello " + firstname + "!</span></p>" );
+        resp.getWriter().append("<title>ACCESS TO THIS INTERNET RESOURCE IS LIMITED</title>")
+                .append("<body>")
+                .append("<img src=\"https://stat2.city-dog.by/content/editor_images/2022/03_march/08_28295/439137bee3c929c317b51a310a69c126.jpg\">")
+                .append("</body>");
     }
 }
 //PrintWriter writer = resp.getWriter();
