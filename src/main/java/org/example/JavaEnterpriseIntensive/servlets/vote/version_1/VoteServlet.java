@@ -1,7 +1,7 @@
-package org.example.JavaEnterpriseIntensive.servlets.vote;
+package org.example.JavaEnterpriseIntensive.servlets.vote.version_1;
 
-import org.example.JavaEnterpriseIntensive.servlets.vote.votingSheets.ArtistsListServlet;
-import org.example.JavaEnterpriseIntensive.servlets.vote.votingSheets.GenresListServlet;
+import org.example.JavaEnterpriseIntensive.servlets.vote.version_1.votingSheets.ArtistsListServlet;
+import org.example.JavaEnterpriseIntensive.servlets.vote.version_1.votingSheets.GenresListServlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,9 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Enumeration;
 
-@WebServlet(name = "VoteServlet", urlPatterns = "/vote")
+//@WebServlet(name = "VoteServlet", urlPatterns = "/vote")
 public class VoteServlet extends HttpServlet {
 
     ArtistsListServlet artistsList = new ArtistsListServlet();
