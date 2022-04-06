@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets.vote.votingSheets;
+package org.example.JavaEnterpriseIntensive.servlets.vote.version_1.votingSheets;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "GenresListServlet", urlPatterns = "/Genres")
+//@WebServlet(name = "GenresListServlet", urlPatterns = "/Genres")
 public class GenresListServlet extends HttpServlet {
 
     private String genresList =

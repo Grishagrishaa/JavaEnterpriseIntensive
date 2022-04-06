@@ -1,7 +1,7 @@
-package org.example.JavaEnterpriseIntensive.servlets.vote.getTopServlets;
+package org.example.JavaEnterpriseIntensive.servlets.vote.version_1.getTopServlets;
 
-import org.example.JavaEnterpriseIntensive.servlets.vote.comparators.MyValueComparator;
-import org.example.JavaEnterpriseIntensive.servlets.vote.votingSheets.ArtistsListServlet;
+import org.example.JavaEnterpriseIntensive.servlets.vote.version_1.comparators.MyValueComparator;
+import org.example.JavaEnterpriseIntensive.servlets.vote.version_1.votingSheets.GenresListServlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,17 +11,21 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.List;
 
-@WebServlet(name = "ArtistsTopServlet", urlPatterns = "/topArtists")
-public class ArtistsTopServlet extends HttpServlet {
+//@WebServlet(name = "GenresTopServlet", urlPatterns = "/topGenres")
+
+public class GenresTopServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html; charset=UTF-8");
 
 
-        ArtistsListServlet artistsList = new ArtistsListServlet();
+        GenresListServlet genresList = new GenresListServlet();
         PrintWriter writer = resp.getWriter();
 
         HttpSession session = req.getSession();
@@ -31,7 +35,7 @@ public class ArtistsTopServlet extends HttpServlet {
 
         while(attributeNames.hasMoreElements()){
             String attributeName = attributeNames.nextElement();
-            if (artistsList.getArtistsList().contains(attributeName)){
+            if (genresList.getGenresList().contains(attributeName)){
                 map.put(attributeName, (Integer) session.getAttribute(attributeName));
             }
         }

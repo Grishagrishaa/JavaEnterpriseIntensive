@@ -1,17 +1,44 @@
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\secondLesson\Calculator.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\comparators\MyValueComparator.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\votingSheets\GenresListServlet.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\api\AutoPart.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\getTopServlets\GenresTopServlet.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\dto\Engine.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\VoteServlet.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\HelloWorldServletWithName.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\dto\Wheel.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\FilterServlet.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\main\WorkMain.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\HeaderServlet.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\dto\Door.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\getTopServlets\ArtistsTopServlet.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\HelloWorldServlet.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\main\IsDigit.java
-C:\Docs for Study\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\votingSheets\ArtistsListServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_ilya\service\ArtistsService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\comparators\MyValueComparator.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\servlets\TopGenresServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\HelloWorldServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\servlets\GenresServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\servlets\TopArtistsServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_1\VoteServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\core\dto\VoteDto.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\service\ArtistService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\service\GenreService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_ilya\servlets\GenresServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\dtoPerson\servlets\PersonServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\dto\Wheel.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\cookies\CookiesService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_ilya\servlets\ArtistsServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\secondLesson\Calculator.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\servlets\VoteServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\cookies\CookiesServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\sessions\SessionAttributes.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_ilya\servlets\VoteServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\sessions\SessionService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\HelloWorldServletWithName.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_ilya\service\GenreService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\HeaderServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\dtoPerson\service\PersonService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_1\comparators\MyValueComparator.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\main\IsDigit.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\dtoPerson\core\dto\Person.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\service\VoteService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\dto\Engine.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_1\votingSheets\GenresListServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_1\votingSheets\ArtistsListServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\dtoPerson\service\SessionService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_ilya\service\VoteService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_1\getTopServlets\GenresTopServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\basics\FilterServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\main\WorkMain.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\servlets\BioServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_ilya\core\dto\VoteDto.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\dto\Door.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\dtoPerson\service\CookieService.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\firstLesson\api\AutoPart.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_1\getTopServlets\ArtistsTopServlet.java
+C:\Java\Java Projects\JavaEnterpriseIntensive\src\main\java\org\example\JavaEnterpriseIntensive\servlets\vote\version_2\servlets\ArtistServlet.java

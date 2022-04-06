@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets.vote.comparators;
+package org.example.JavaEnterpriseIntensive.servlets.vote.version_2.comparators;
 
 import java.util.Comparator;
 import java.util.Map;
