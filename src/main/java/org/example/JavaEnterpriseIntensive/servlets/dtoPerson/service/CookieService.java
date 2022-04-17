@@ -1,6 +1,6 @@
 package org.example.JavaEnterpriseIntensive.servlets.dtoPerson.service;
 
-import org.example.JavaEnterpriseIntensive.servlets.cookies.CookiesServlet;
+
 import org.example.JavaEnterpriseIntensive.servlets.dtoPerson.core.dto.Person;
 
 import javax.servlet.http.Cookie;
