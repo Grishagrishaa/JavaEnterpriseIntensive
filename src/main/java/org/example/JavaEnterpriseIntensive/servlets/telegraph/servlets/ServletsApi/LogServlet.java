@@ -1,6 +1,7 @@
-package org.example.JavaEnterpriseIntensive.servlets.jsp.servlets;
+package org.example.JavaEnterpriseIntensive.servlets.telegraph.servlets.ServletsApi;
 
-import org.example.JavaEnterpriseIntensive.servlets.jsp.service.UsersService;
+import org.example.JavaEnterpriseIntensive.servlets.telegraph.core.dto.User;
+import org.example.JavaEnterpriseIntensive.servlets.telegraph.service.UsersService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,15 +16,21 @@ public class LogServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        UsersService usServ = new UsersService(req, resp);
+        UsersService usServ = UsersService.getInstance();
         PrintWriter writer = resp.getWriter();
 
         String login = req.getParameter("login");
         String password = req.getParameter("password");
-        if(usServ.findUser(login, password)){
-            writer.println("aboba");
+
+        User user = usServ.findUser(login, password);
+
+        if(user != null){
+            req.getSession().setAttribute("user", user);
+            writer.println("SUCCESSFUL SIGN IN");
+            String contextPath = req.getContextPath();
+            resp.sendRedirect( contextPath + "/ui/user/message");
         }else{
-            throw new IllegalAccessError("INCORRECT PASSWORD");
+            writer.println("INCORRECT INPUT DATA");
         }
     }
 }

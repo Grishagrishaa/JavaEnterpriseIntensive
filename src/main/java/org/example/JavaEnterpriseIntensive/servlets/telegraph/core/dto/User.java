@@ -1,6 +1,5 @@
-package org.example.JavaEnterpriseIntensive.servlets.jsp;
+package org.example.JavaEnterpriseIntensive.servlets.telegraph.core.dto;
 
-import javax.servlet.Registration;
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.Objects;
@@ -14,10 +13,6 @@ public class User {
     private Boolean isAdmin;
 
     public User() {
-        this.fullName = "admin";
-        this.BirthDate = null;
-        this.RegistrationDate = LocalDateTime.now();
-        this.isAdmin = true;
     }
 
 
@@ -59,7 +54,7 @@ public class User {
         return RegistrationDate;
     }
 
-    public Boolean getAdmin() {
+    public Boolean getAdminStatus() {
         return isAdmin;
     }
 
@@ -77,5 +72,16 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash(login, password, fullName, BirthDate, RegistrationDate, isAdmin);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "login='" + login + '\n' +
+                "fullName='" + fullName + '\n' +
+                "BirthDate=" + BirthDate + '\n' +
+                "RegistrationDate=" + RegistrationDate + '\n' +
+                "isAdmin=" + isAdmin +
+                '}';
     }
 }
