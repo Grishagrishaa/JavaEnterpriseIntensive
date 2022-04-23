@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.servlets.servletsUi;
+package org.example.JavaEnterpriseIntensive.telegraph.servlets.servletsUi;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,10 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "SignUpServlet", urlPatterns = "/ui/signup")
-public class SignUpServlet extends HttpServlet {
+@WebServlet(name = "GetMessageServlet", value = "/ui/user/chats")
+public class GetMessageServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/sign.jsp").forward(req, resp);
+        req.getRequestDispatcher("/api/message").forward(req, resp);
     }
 }

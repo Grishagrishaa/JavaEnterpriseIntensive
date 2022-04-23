@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.service;
+package org.example.JavaEnterpriseIntensive.telegraph.service;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

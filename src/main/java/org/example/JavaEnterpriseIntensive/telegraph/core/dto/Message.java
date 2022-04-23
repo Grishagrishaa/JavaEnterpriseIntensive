@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.core.dto;
+package org.example.JavaEnterpriseIntensive.telegraph.core.dto;
 
 import java.time.LocalDateTime;
 

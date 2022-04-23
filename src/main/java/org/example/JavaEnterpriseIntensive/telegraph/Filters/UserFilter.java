@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.Filters;
+package org.example.JavaEnterpriseIntensive.telegraph.Filters;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

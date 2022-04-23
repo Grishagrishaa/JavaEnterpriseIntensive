@@ -1,7 +1,7 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.servlets.ServletsApi;
+package org.example.JavaEnterpriseIntensive.telegraph.servlets.ServletsApi;
 
-import org.example.JavaEnterpriseIntensive.servlets.telegraph.core.dto.User;
-import org.example.JavaEnterpriseIntensive.servlets.telegraph.service.UsersService;
+import org.example.JavaEnterpriseIntensive.telegraph.core.dto.User;
+import org.example.JavaEnterpriseIntensive.telegraph.service.UsersService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

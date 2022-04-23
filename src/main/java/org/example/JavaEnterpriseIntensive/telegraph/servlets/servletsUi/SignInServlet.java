@@ -1,4 +1,4 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.servlets.servletsUi;
+package org.example.JavaEnterpriseIntensive.telegraph.servlets.servletsUi;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

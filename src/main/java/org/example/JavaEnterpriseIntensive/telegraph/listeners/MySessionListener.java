@@ -1,6 +1,6 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.listeners;
+package org.example.JavaEnterpriseIntensive.telegraph.listeners;
 
-import org.example.JavaEnterpriseIntensive.servlets.telegraph.service.StatisticService;
+import org.example.JavaEnterpriseIntensive.telegraph.service.StatisticService;
 
 import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpSessionAttributeListener;

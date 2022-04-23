@@ -1,6 +1,6 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.service;
+package org.example.JavaEnterpriseIntensive.telegraph.service;
 
-import org.example.JavaEnterpriseIntensive.servlets.telegraph.core.dto.User;
+import org.example.JavaEnterpriseIntensive.telegraph.core.dto.User;
 
 
 import java.text.ParseException;

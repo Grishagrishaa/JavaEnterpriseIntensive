@@ -1,7 +1,7 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.servlets.ServletsApi;
+package org.example.JavaEnterpriseIntensive.telegraph.servlets.ServletsApi;
 
-import org.example.JavaEnterpriseIntensive.servlets.telegraph.core.dto.StatsDto;
-import org.example.JavaEnterpriseIntensive.servlets.telegraph.service.StatisticService;
+import org.example.JavaEnterpriseIntensive.telegraph.core.dto.StatsDto;
+import org.example.JavaEnterpriseIntensive.telegraph.service.StatisticService;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

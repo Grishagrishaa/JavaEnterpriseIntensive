@@ -1,6 +1,6 @@
-package org.example.JavaEnterpriseIntensive.servlets.telegraph.Filters;
+package org.example.JavaEnterpriseIntensive.telegraph.Filters;
 
-import org.example.JavaEnterpriseIntensive.servlets.telegraph.core.dto.User;
+import org.example.JavaEnterpriseIntensive.telegraph.core.dto.User;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
